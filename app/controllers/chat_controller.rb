@@ -1,4 +1,9 @@
 class ChatController < ApplicationController
+  respond_to :json, :only => :index
+  
+  def index
+    respond_with Chat.all    
+  end
   
   def new
     chat = Chat.new
