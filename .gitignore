@@ -2,3 +2,7 @@
 db/*.sqlite3
 log/*.log
 tmp/**/*
+config/initializers/pusher.rb
+config/database.yml
+db/*.db
+tmp
