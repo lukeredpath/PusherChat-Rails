@@ -17,6 +17,10 @@ class ApiController < ApplicationController
       render :text => "ERROR"
     end
   end
+  
+  def join
+    render :json => ChatUser.user(session), :status => 201
+  end
 
   def post_message
     chat = Chat.find(params[:chat_id])
