@@ -1,3 +1,8 @@
+Fork Notes
+----------
+
+This fork contains a few enhancements to the API to support the [iOS counterpart](http://github.com/lukeredpath/PusherChat-iPhone).
+
 Getting started locally
 -----------------------
 
